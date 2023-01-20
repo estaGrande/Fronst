@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+}
+
+/* ya que no se puede hacer directo con el body se hizo una class */
+.fondoB{
+    background-color: #d7f1a7;
+}
+
+/* al no poder hacerlo solo con "a" se agrego el div para identificarlo */
+div a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #4C4637;
+}
+
+a:hover{
+    color: rgb(117, 10, 24);
+}
+
+.menu{
+    list-style: none;
+    position:sticky;
+    top:0;
+    background-color: #B1AB99;
+    text-align: center;    
+}
+
+.decorado{
+    margin: 0 auto;
+    height:20px;
+    width:100%;
+    border-width:0px;
+    background-color: rgb(187, 134, 21);
+}
+
+.distancia{
+    padding: 10px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+hr{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+}
+
+.fondo{
+    background-color: #ECD13F;   
+}
+
+/* de esta forma se voltea horizontalmente la imagen */
+.giro{
+    transform: scaleX(-1);
+}
+
+.coloreto{
+    background-color:#ECD13F;
+    border:2px solid #4C4637;
+}
+
+textarea{
+    resize:none;/* para que en la parte de "ingrese sus comentarios" el usuario no altere sus dimenciones */
+    width: 100%;
+    height: 100px;    
+}
+
+/* cambia los tamaños de los logos */
+tr td img{
+    width: 30px;
+}
